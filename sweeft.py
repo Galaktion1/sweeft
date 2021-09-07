@@ -17,9 +17,9 @@ def palindrome(text):
 
 
 	if text == text[::-1]:
-		return 'String is palindrome'
+		return True
 	else:
-		return 'String is not palindrome'
+		return False
 
 
 
